@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="main"></div>
+        <script>
+            
+            fetch("http://18.191.162.192/data")
+            .then(response=>response.json())
+            .then(data=>{
+                const vjson=JSON.stringify(data);
+                const div=document.querySelector('#main');
+                div.innerHTML=vjson;
+            })
+            
+        </script>
+    </body>
+</html>

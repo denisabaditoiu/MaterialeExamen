@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div id="main"></div>
+        <script>
+            const container = document.querySelector('#main');
+            fetch('http://3.124.205.221:8080/data').then(res => res.json()).then(data => {
+                container.innerHTML = JSON.stringify(data);
+            })
+        </script>
+    </body>
+</html>

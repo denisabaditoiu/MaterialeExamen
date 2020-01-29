@@ -1,0 +1,13 @@
+{
+	"invoiceNumber": 1,
+	"invoiceSeries": "ABCD",
+	"invoiceItems": [{
+		"productName": "Product 1",
+		"quantity": 10,
+		"productPrice": 10.00
+	}, {
+		"productName": "Product 2",
+		"quantity": 10,
+		"productPrice": 100.00
+	}]
+}
