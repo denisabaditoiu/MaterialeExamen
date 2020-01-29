@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="main"></div>
+        <script>
+        // fetch('http://localhost:8080/data')
+        //fetch e async:primul para e url pe acre vreau sa il accesces, adica endpoint ul data
+            fetch("http://3.12.71.6:8080/data")
+            .then(response=>response.json())
+            // .then(data=>console.log(JSON.stringify(data)))
+            .then(data=>{
+                const vjson=JSON.stringify(data);
+                const div=document.querySelector('#main');
+                div.innerHTML=vjson;
+            })
+        </script>
+    </body>
+</html>

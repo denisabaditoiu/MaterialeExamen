@@ -1,0 +1,3 @@
+Realizează fisierul json din directorul public confrom schemei descrise în fisierul test.js 
+se da fis invoice.json si se cere din public si afisarea in div main in html
+Puteți rula testele cu "npm test" în directorul main.
